@@ -9,27 +9,128 @@
 ## What is pseudocode? (10 m)
 
 According to wikipedia, [pseudocode is](https://en.wikipedia.org/wiki/Pseudocode):
-e
 > Pseudocode is an informal high-level description of the operating principle of a computer program or other algorithm.
 
 > It uses the structural conventions of a programming language, but is intended for human reading rather than machine reading.
 
-This is a great opportunity to turn tech speak in, well, human speak.  Let's break that down.
+This is a great opportunity to turn tech speak in, well, human speak. Let's break that down.
 
 ???
 
 ### We Do: What does that look like? (45 m)
 
+Pseudocode should describe the entire logic of the algorithm so that programming becomes a task of translating line by line of the pseudocode into real code
 
-??? Show good examples
+For Each of Following, Let's discuss whether it's a Good or Bad examples of Pseudocode:
 
-- to_oz
+1. Problem: Determining If a Number is Even or Odd
+
+Example 1:
+```
+PROGRAM IsEvenOrOdd:
+  Read number;
+  var num = number;
+  IF (num / 2 === 0)
+    THEN Print "even";
+    ELSE Print "odd";
+  ENDIF;
+END.
+```
+>This is not a great example. Here we are using variable Syntax
+
+Example 2:
+```
+PROGRAM IsEvenOrOdd:
+  Read number;
+  IF (number divided by two has no remainder)
+      THEN Print the number is even;
+      ELSE Print the number is odd;
+  ENDIF;
+END.
+```
 
 
-??? Compare and contrast examples
+2. Problem: Make a PBJ Sandwich
 
+From [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)
 
+Example 1:
+```
+Make PB&J Sandwich:
+  Gather bread, peanut butter and jelly.
+  Apply peanut butter to slice of bread.
+  Apply jelly to another slice of bread.
+  Bring to two slices of bread together.
+  Eat and enjoy.
 
+```
+>Although this might appear to be a good set of instructions and intuitive for us to follow, we need to break down the steps further for the computer to understand.
+
+Example 2:
+```
+PROGRAM MakePb&jSandwich:
+  Grab a paper plate;
+  Open bread container;
+  Grab bread package;
+  Untwist bread package;
+  Open bread bag and remove two slices;
+  Place slices on paper plate;
+  Grab a plastic knife;
+  Open peanut butter jar;
+  Use knife to scoop out peanut butter;
+  Apply peanut butter to one slice of bread;
+  Spread peanut butter on slice;
+  Place knife on plate;
+  Close peanut butter jar;
+  Open jelly bottle;
+  Squeeze jelly onto second bread slice;
+  Close jelly bottle;
+  Place down jelly;
+  Pick up knife;
+  Spread jelly on slice;
+  Bring two slices of bread together;
+  Cut slices in half down the middle;
+  Throw knife in the trash;
+  Pick up one half of sandwich;
+  Enjoy;
+END.  
+```
+>This example's sequence is very thorough! However,we are still assuming certain conditions that our utensils or ingredients already exist. What if we are out of plates? If we are out of plates, will we grab a napkin instead? What if we are out of jelly? Will you throw the sandwich away or eat it with just peanut butter?
+
+Computers are not smart. We need to give them step by step instructions to account for conditions. They can not adapt to changes without being explicitly told.
+
+Programing is a series of tasks, which can be completed only if a certain number of conditions are met.
+
+4. To_oz
+
+<!--I added this structure as I was looking up PseudoCode examples so feel free to take it out or if you would like me to expand on it I can as well-->
+
+###Syntax for Pseudocode:????
+
+Referencing[Introduction to Pseudocode](http://www.slideshare.net/DamianGordon1/pseudocode-10373156)
+
+* General Structure of PseudoCode
+  ```text
+  PROGRAM <ProgramName>:
+
+  <Do Stuff>
+
+  END.
+  ```
+
+* Selection: IF/ELSE Statements
+  ```
+  IF (<Condition>)
+    THEN <Statements>;
+    ELSE <Statements>;
+  ENDIF;
+
+  ```
+* Iteration: LOOP
+  ```
+  WHILE (<Condition>)
+  ENDWHILE;
+  ```
 
 ## Exercise: Draw Toast
 http://gamestorming.com/core-games/draw-toast/
