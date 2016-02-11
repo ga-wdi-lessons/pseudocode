@@ -21,7 +21,7 @@ This is a great opportunity to turn tech speak in, well, human speak. Let's brea
 
 Pseudocode should describe the entire logic of the algorithm so that programming becomes a task of translating line by line of pseudo code into real code. 
 
-For each of following, let's discuss whether it's a good or bad examples of pseudo code:
+For each of following, let's discuss why each one could be considered "Good" or "Poor" examples of pseudocode:
 
 **1. Problem - Determining If a Number is Even or Odd**
 
@@ -35,7 +35,7 @@ PROGRAM IsEvenOrOdd:
   ENDIF;
 END.
 ```
->This is not a great example. Here we are using "var" in our pseudocode when it read plain english! Also, we should not be using the javascript syntax "===" in our conditional. 
+>This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional. 
 
 ***Example 2:***
 ```
@@ -50,7 +50,7 @@ END.
 
 **2. Problem - How to Make a PB&J Sandwich**
 
-From [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)
+***From [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)***
 
 ***Example 1:***
 ```
@@ -62,7 +62,7 @@ Make PB&J Sandwich:
   Eat and enjoy.
 
 ```
->Although this might appear to be a good set of instructions and intuitive for us to follow, we need to break down the steps further for the computer to understand.
+>Although this might appear to be a good set of instructions and intuitive for us to follow, we need to break these down into smaller steps for the computer to understand.
 
 ***Example 2:***
 ```
@@ -95,9 +95,9 @@ END.
 ```
 >This example's sequence is very thorough! However, we are still assuming certain conditions that our utensils or ingredients already exist. What if we are out of plates? Will we grab a napkin instead to place our sandwich on? What if we are out of jelly? Will you throw the sandwich away or eat it with just peanut butter?
 
-Computers are not smart. We need to give them step by step instructions to account for conditions. They can not adapt to changes without being explicitly told. Programing is a series of tasks, which can be completed only if a certain number of conditions are met.
+Computers are not smart. We need to give them step by step instructions to account for conditions. They can not adapt to make changes without being explicitly told. Programing is a series of tasks, which can be completed only if a certain number of conditions are met.
 
-**2. Problem - To_oz**
+**3. Problem - To_oz**
 
 <!--I added this structure as I was looking up PseudoCode examples so feel free to take it out or if you would like me to expand on it I can as well-->
 
@@ -125,6 +125,7 @@ Computers are not smart. We need to give them step by step instructions to accou
 * Iteration: LOOP
   ```
   WHILE (<Condition>)
+  
   ENDWHILE;
   ```
 
