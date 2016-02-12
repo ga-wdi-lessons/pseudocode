@@ -283,14 +283,18 @@ The robot can only obey 9 commands:
 - Tell if two numbers are equal, and if they are do one thing, and otherwise do another thing
   - For example, "If Number A equals 42, say 'Hello'. Otherwise, go back to step 3."
 
-You need to write a list of instructions for the robot so that when it's given a number &mdash; say, 73 &mdash; for each number between 1 and 73:
+### Our task
+
+We need to instruct the robot, using only these commands, to perform the following actions.
+
+When the robot is given a number &mdash; say, 10 &mdash; for each number between 1 and 10:
 
 - If the number is divisible by 3 it says "Fizz"
 - If the number is divisible by 5 it says "Buzz"
 - If the number is divisible by 3 and 5 it says "FizzBuzz"
 - If the number isn't divisible by 3 or 5 is says the number
 
-So if the number was 9, the robot would say:
+So if the provided number was 10, the robot would say:
 
 ```
 "One"
@@ -302,11 +306,12 @@ So if the number was 9, the robot would say:
 "Seven"
 "Eight"
 "Nine"
+"Buzz"
 ```
 
 To start, consider:
 
-- How would you get the robot to count to 73? You can't just say, "Count to 73." That's not one of the commands the robot knows. Of the 9 commands you've been given, which might be helpful?
+- How would you get the robot to count to 10? You can't just say, "Count to 10." That's not one of the commands the robot knows. Of the 9 commands you've been given, which might be helpful?
 
 - How can you tell if one number is divisible by another? (For example, 8 is divisible by 2, but not by 3.)
 
