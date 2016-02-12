@@ -175,6 +175,22 @@ Here are some steps that can help with problem solving:
 - Who will benefit?  
 - What are we delivering?
 
+### Conceptualize
+
+- Look at the big picture, the major steps
+- Avoid details
+- At this stage we recommend drawing on whiteboards or with crayon, anything that screams "temporary", "play", or "brainstorm".
+
+### Break it down
+
+- We break the conceptual models down into concrete steps, actionable items.
+- We identify risks (gaps in knowledge, technology, and infrastructure).
+
+### Start small, stay small
+
+Finally, we take some action.  This is when we finally start writing code.  We fight hard to take small steps, verify that each step achieves what we want, what we expect, before continuing on.  If we do too much at once and things break, which they always do, we won't know what is causing the problem.  We won't know which part to trust.  Humans thrive on easy wins. We need to see forward progress.  Remember that.  Use that.  Celebrate your wins.
+
+
 ### Review: the Steps
 
 - Identify the Problem
@@ -293,3 +309,10 @@ To start, consider:
 - How would you get the robot to count to 73? You can't just say, "Count to 73." That's not one of the commands the robot knows. Of the 9 commands you've been given, which might be helpful?
 
 - How can you tell if one number is divisible by another? (For example, 8 is divisible by 2, but not by 3.)
+
+
+## Conclusion:
+
+1. What are some helpful steps for solving problems?
+2. What does pseudocode help us do?
+3. Do we only pseudocode at the start of a project?
