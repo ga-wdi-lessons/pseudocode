@@ -20,7 +20,7 @@ Let's break that down and translate it.
 Q. What does that mean?
 ---
 
-> A. Pseudocode attempts to be a way to describe a the solution to a problem, that is easier and more concise than code.  It a stepping stone toward writing the code.
+> A. Pseudocode attempts to be a way to describe a the solution to a problem, that is easier and more concise than code.  It is a stepping stone toward writing the code.  It forces u to think critically about the problem and allows us to attempt multiple solutions.
 
 I've heard Washington, DC described as where Northern hospitality meets Southern efficiency.
 
@@ -35,7 +35,7 @@ For each of following, let's discuss why each one could be considered "Good" or 
 
 **1. Problem - Determining If a Number is Even or Odd**
 
-***Example 1:***
+***Example 1.1:***
 ```
 PROGRAM IsEvenOrOdd:
   var num = number;
@@ -45,9 +45,13 @@ PROGRAM IsEvenOrOdd:
   ENDIF;
 END.
 ```
->This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional.
 
-***Example 2:***
+Q. What do we think?
+---
+
+> A. This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional.  Would anyone know that `num / 2 === 0` indicates an even number?
+
+***Example 1.2:***
 ```
 PROGRAM IsEvenOrOdd:
   Read number;
@@ -58,11 +62,16 @@ PROGRAM IsEvenOrOdd:
 END.
 ```
 
+Q. What do we think?
+---
+
+> A. This is better.  It's closer to english.  It clearly states what we are trying to achieve and how, without getting bogged down in the minutia of code.  Even someone that doesn't code can help us check our logic.  Is any number that can be divided by two, cleanly -- without leaving a remainder -- even? Is anything else odd?
+
 **2. Problem - How to Make a PB&J Sandwich**
 
-***From [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)***
+*From [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)*
 
-***Example 1:***
+***Example 2.1:***
 ```
 Make PB&J Sandwich:
   Gather bread, peanut butter and jelly.
@@ -72,9 +81,15 @@ Make PB&J Sandwich:
   Eat and enjoy.
 
 ```
->Although this might appear to be a good set of instructions and intuitive for us to follow, we need to break these down into smaller steps for the computer to understand.
 
-***Example 2:***
+Q. What do we think?
+---
+
+> A. This is a good place to start.  It is a good set of instructions and intuitive for us to follow.  However, we still don't know what physical steps are required.
+
+Take a second to imagine.  Imagine if you had never made a sandwich before.  Ever.  Think about the instructions you would need for that for that first sandwich.  A computer has no real memory.  Every time it starts a task, it has no recollection of performing it before.  We must tell it every single step, every single time.  We need to break these down into smaller steps for the computer to understand.
+
+***Example 2.2:***
 ```
 PROGRAM MakePB&JSandwich:
   Grab a paper plate;
@@ -103,9 +118,15 @@ PROGRAM MakePB&JSandwich:
   Enjoy;
 END.  
 ```
->This example's sequence is very thorough! However, we are still assuming certain conditions that our utensils or ingredients already exist. What if we are out of plates? Will we grab a napkin instead to place our sandwich on? What if we are out of jelly? Will you throw the sandwich away or eat it with just peanut butter?
+
+Q. What do we think?
+---
+
+> A. This example's sequence is very thorough! However, we are still assuming certain conditions that our utensils or ingredients already exist. What if we are out of plates? Will we grab a napkin instead to place our sandwich on? What if we are out of jelly? Will you throw the sandwich away or eat it with just peanut butter?
 
 Computers are not smart. We need to give them step by step instructions to account for conditions. They can not adapt to make changes without being explicitly told. Programing is a series of tasks, which can be completed only if a certain number of conditions are met.
+
+Computers can not adapt, but we can.  Your first pass at pseudocode will probably not cover everything.  Once you know more, you may come back to update and refactor your pseudocode.
 
 
 ## Exercise: Draw Toast (30 min)
@@ -116,9 +137,9 @@ https://github.com/ga-wdi-exercises/draw_toast
 
 ## Break (10 min)
 
-## Exercise: Solve the Waiter Problem (5 min)
+## Exercise: Solve the Waiter Problem (10 min)
 
-Using your new found skills, solve this:
+Using your new found skills, you have 5 minutes to solve this:
 
 - A waiter has N tables, each with 2-4 guests.
 - The waiter makes rounds between each of their tables, the bar, and the kitchen.
@@ -139,13 +160,12 @@ We realize you didn't have enough time to solve it.  We hope that, through this 
 
 ## Approaching a coding problem (15 min)
 
-Before we can write pseudocode to solve the problem, we need to know the problem.  
+Pseudocode isn't just about writing down the steps that you already know.  It's a tool to help you work through the problem.  Before we can write pseudocode to solve the problem, we need to know the problem.  
 
-Here are some steps that can help:
+Here are some steps that can help with problem solving:
 
 - Identify the Problem
 - Conceptualize
-  - Big picture, big strokes
 - Break it down
 - Start small
 
@@ -159,11 +179,11 @@ Here are some steps that can help:
 
 - Identify the Problem
 - Conceptualize
-  - Big picture, big strokes
 - Break it down
 - Start small
 
-Q. Where does pseudocode fit?
+
+Q. Where does pseudocode fit in these steps?
 ---
 
 > A. Break it down OR Start small
