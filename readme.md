@@ -49,7 +49,7 @@ END.
 Q. What do we think?
 ---
 
-> A. This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional.  Would anyone know that `num / 2 === 0` indicates an even number?
+> A. This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional.  Would a non-programmer know that `num / 2 === 0` indicates an even number?
 
 ***Example 1.2:***
 ```
@@ -316,8 +316,38 @@ To start, consider:
 - How can you tell if one number is divisible by another? (For example, 8 is divisible by 2, but not by 3.)
 
 
-## Conclusion:
+## Conclusion
 
 1. What are some helpful steps for solving problems?
 2. What does pseudocode help us do?
 3. Do we only pseudocode at the start of a project?
+
+## Resources
+
+- wikipedia, [pseudocode is](https://en.wikipedia.org/wiki/Pseudocode)
+- [Introduction to Pseudocode](http://www.slideshare.net/DamianGordon1/pseudocode-10373156)
+- [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)
+
+## Suggestions & Possible Solutions
+
+### If there are eggs:
+
+```
+GallonsToBuy is 1
+if Store Has "Eggs"
+  Increase GallonsToBuy by 12
+end
+
+Purchase <GallonsToBuy> gallons of "Milk"
+```
+
+# OR
+
+```
+GallonsToBuy = 1
+IF StoreHas("Eggs")
+  GallonsToBuy += 12
+END
+
+Buy("Milk", GallonsToBuy)
+```
