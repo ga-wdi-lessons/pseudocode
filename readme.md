@@ -6,20 +6,30 @@
 - Create pseudocode to describe a basic problem
 
 
-## What is pseudocode? (10 m)
+## What is pseudocode? (10 min)
 
 According to wikipedia, [pseudocode is](https://en.wikipedia.org/wiki/Pseudocode):
 > Pseudocode is an informal high-level description of the operating principle of a computer program or other algorithm.
 
 > It uses the structural conventions of a programming language, but is intended for human reading rather than machine reading.
 
-This is a great opportunity to turn tech speak in, well, human speak. Let's break that down.
+This is a great opportunity to turn tech speak in, well, human speak.
 
-???
+Let's break that down and translate it.
 
-### We Do: What does that look like? (45 min)
+Q. What does that mean?
+---
 
-Pseudocode should describe the entire logic of the algorithm so that programming becomes a task of translating line by line of pseudo code into real code. 
+> A. Pseudocode attempts to be a way to describe a the solution to a problem, that is easier and more concise than code.  It a stepping stone toward writing the code.
+
+I've heard Washington, DC described as where Northern hospitality meets Southern efficiency.
+
+Pseudocode lives in that "in between" place too.  It has more logic than English, without all the structure of code.
+
+
+### We Do: What does that look like? (15 min)
+
+Pseudocode should describe the entire logic of the algorithm so that programming becomes a task of translating line by line of pseudo code into real code.
 
 For each of following, let's discuss why each one could be considered "Good" or "Poor" examples of pseudocode:
 
@@ -35,7 +45,7 @@ PROGRAM IsEvenOrOdd:
   ENDIF;
 END.
 ```
->This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional. 
+>This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional.
 
 ***Example 2:***
 ```
@@ -97,11 +107,79 @@ END.
 
 Computers are not smart. We need to give them step by step instructions to account for conditions. They can not adapt to make changes without being explicitly told. Programing is a series of tasks, which can be completed only if a certain number of conditions are met.
 
-**3. Problem - To_oz**
 
-<!--I added this structure as I was looking up PseudoCode examples so feel free to take it out or if you would like me to expand on it I can as well-->
+## Exercise: Draw Toast (30 min)
 
-### Syntax for Pseudocode:??
+Got a wicked problem? First, tell me how you make toast.
+
+https://github.com/ga-wdi-exercises/draw_toast
+
+## Break (10 min)
+
+## Exercise: Solve the Waiter Problem (5 min)
+
+Using your new found skills, solve this:
+
+- A waiter has N tables, each with 2-4 guests.
+- The waiter makes rounds between each of their tables, the bar, and the kitchen.
+- The waiter takes drink orders for a new table, then submits them to the bar.
+- Drinks are delivered when all table orders are ready.
+- The waiter takes food orders for a new table, then submits them to the kitchen.
+- Food is delivered when all table orders are ready.
+- The waiter checks idle tables for additional requests, then submits them appropriately.
+- Additional requested items are delivered when all table orders are ready.
+
+
+Q. In one sentence, what problem were you solving?
+---
+
+> A. Discuss the answers and the importance of identifying the problem.
+
+We realize you didn't have enough time to solve it.  We hope that, through this exercise, you learned the importance of clearly identifying the problem.
+
+## Approaching a coding problem (15 min)
+
+Before we can write pseudocode to solve the problem, we need to know the problem.  
+
+Here are some steps that can help:
+
+- Identify the Problem
+- Conceptualize
+  - Big picture, big strokes
+- Break it down
+- Start small
+
+### Identify the Problem
+
+- What exactly are we trying to solve?  - From who's viewpoint?  
+- Who will benefit?  
+- What are we delivering?
+
+### Review: the Steps
+
+- Identify the Problem
+- Conceptualize
+  - Big picture, big strokes
+- Break it down
+- Start small
+
+Q. Where does pseudocode fit?
+---
+
+> A. Break it down OR Start small
+
+This process is iterative.  We keep circling around and repeating the earlier steps, just at a different level.
+
+When we first approach a problem, we see the big picture.  "Break it down" gives us big steps.  Then, we take one of those steps and "Break it down".  Now, starting small, we write pseudocode to help illustrate the problem.  
+
+Pseudocoding proves that we have *identified* the problem, understand it *conceptually*, and have *broken it down* into *small steps* that we can follow.
+
+
+## Syntax for Pseudocode:
+
+There is no one, fixed syntax for pseudocode.  It just needs to be clear, simple, and concise.  
+
+If you feel stuck, feel free to use this syntax:
 
 ***Referencing: [Introduction to Pseudocode](http://www.slideshare.net/DamianGordon1/pseudocode-10373156)***
 
@@ -125,62 +203,37 @@ Computers are not smart. We need to give them step by step instructions to accou
 * Iteration: LOOP
   ```
   WHILE (<Condition>)
-  
+
   ENDWHILE;
   ```
 
-## Exercise: Draw Toast
-http://gamestorming.com/core-games/draw-toast/
-http://www.drawtoast.com/
-Got a wicked problem? First, tell me how you make toast.
+## Exercise: If there are eggs
 
+A programmer is going to the grocery store and his wife tells him, "Buy a gallon of milk, and if there are eggs, buy a dozen."
 
-## Approaching a coding problem
+So the programmer goes, buys everything, and drives back to his house.
 
-- Identify the Problem
-- Conceptualize
-  - Big picture, big strokes
-- Break it down
-- Start small
+Upon arrival, his wife angrily asks him, "Why did you get 13 gallons of milk?"
 
-### Identify the Problem
+The programmer says, "There were eggs!"
 
-Use the examples from Problem Solving (Waiter, etc) BUT only for Identifying the problem.  
+### We Do: Only milk (10 min)
 
-??? Maybe let the struggle to come up with answers for very short time.
+1. Write the pseudocode that shows why he only bought milk.
 
-### Review: the Steps
+### You Do: Milk and eggs (15 min)
 
-- Identify the Problem
-- Conceptualize
-  - Big picture, big strokes
-- Break it down
-- Start small
+1. Write pseudocode that gets me (errr...  um...  THAT programmer) to buy milk and eggs.
 
-Q. Where does pseudocode fit?
----
+## Break (10 min)
 
-> Break it down OR Start small
+## Exercise: Pseudocode FizzBuzz (30 min)
 
-This process is iterative.  We keep circling around and repeating the earlier steps, just at a different level.
-
-When we first approach a problem, we see the big picture.  "Break it down" gives us big steps.  Then, we take one of those steps and "Break it down".  Now, starting small, we write pseudocode to help illustrate the problem.  
-
-Pseudocoding proves that we have *identified* the problem, understand it *conceptually*, and have *broken it down* into *small steps* that we can follow.
-
-
-## Exercise: Buy Eggs
-
-A programmer is going to the grocery store and his wife tells him, "Buy a gallon of milk, and if there are eggs, buy a dozen." So the programmer goes, buys everything, and drives back to his house. Upon arrival, his wife angrily asks him, "Why did you get 13 gallons of milk?" The programmer says, "There were eggs!"
-
-1. Write the pseudocode that shows why he only bought 13 gallons.
-2. Write pseudocode that gets me (errr.  um.  THAT programmer) to buy milk and eggs.
-
-## Exercise: Pseudocode FizzBuzz
+Break into small groups and solve this puzzle:
 
 You're given a robot. The robot has no imagination or creativity whatsoever, but it's good at following rules.
 
-The robot can only obey 9 commands: 
+The robot can only obey 9 commands:
 
 - Add two numbers together
 - Subtract two numbers
@@ -220,4 +273,3 @@ To start, consider:
 - How would you get the robot to count to 73? You can't just say, "Count to 73." That's not one of the commands the robot knows. Of the 9 commands you've been given, which might be helpful?
 
 - How can you tell if one number is divisible by another? (For example, 8 is divisible by 2, but not by 3.)
-
