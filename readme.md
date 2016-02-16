@@ -327,6 +327,10 @@ To start, consider:
 - wikipedia, [pseudocode is](https://en.wikipedia.org/wiki/Pseudocode)
 - [Introduction to Pseudocode](http://www.slideshare.net/DamianGordon1/pseudocode-10373156)
 - [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)
+ 
+## Screencasts
+
+- [Matt, WDI-DC-8](https://www.youtube.com/playlist?list=PL-6bwUTtCRVTMUUSjqIYVXYyfZBzs8saD)
 
 ## Suggestions & Possible Solutions
 
