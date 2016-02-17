@@ -336,6 +336,8 @@ To start, consider:
 
 ### If there are eggs:
 
+1. 13 Gallons
+
 ```
 GallonsToBuy is 1
 if Store Has "Eggs"
@@ -345,7 +347,6 @@ end
 Purchase <GallonsToBuy> gallons of "Milk"
 ```
 
-# OR
 
 ```
 GallonsToBuy = 1
@@ -354,4 +355,11 @@ IF StoreHas("Eggs")
 END
 
 Buy("Milk", GallonsToBuy)
+```
+
+2. Milk AND Eggs
+
+```
+Buy upto 1 gallon of Milk
+Buy upto 1 dozen Eggs
 ```
