@@ -276,6 +276,16 @@ of the flash card, in which case it's temporarily removed from the deck.
 Users can play the [game of 'war'](https://en.wikipedia.org/wiki/War_(card_game))
 against a computer. The game continues until 1 player runs out of cards.
 
+### Timing & Review
+
+Students should take 15 minutes to pseudo-code the first problem in pairs. After
+time is up, they should 'swap' code with another team and spend 5 minutes
+reviewing each other's code, leaving feedback.
+
+If time permits, switch teams and tackle an option that neither partner has done
+before for another 10 minutes. Repeat the the review process.
+
+
 ## Bonus Exercise: Pseudocode FizzBuzz (30 min)
 
 Break into small groups and solve this puzzle:
