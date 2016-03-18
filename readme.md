@@ -243,27 +243,50 @@ If you feel stuck, feel free to use this syntax:
   ENDWHILE;
   ```
 
-## Exercise: If there are eggs
 
-A programmer is going to the grocery store and his wife tells him, "Buy a gallon of milk, and if there are eggs, buy a dozen."
+## Exercise: Pseudocode a real-world problem (30 min)
 
-So the programmer goes, buys everything, and drives back to his house.
+Break into small groups and pick one of the following programs to pseudocode:
 
-Upon arrival, his wife angrily asks him, "Why did you get 13 gallons of milk?"
+### Option 1: A Trivia Game
 
-The programmer says, "There were eggs!"
+The game should have a preset list of questions, which are shown one at a time
+to the user. The user submits their answer and goes the the next question. After
+each question they can see whether they were correct or incorrect. They can also
+see their total score.
 
-### We Do: Only milk (10 min)
+### Option 2: Concentration
 
-1. Write the pseudocode that shows why he only bought milk.
+The user should see a grid of cards. Clicking a card reveals it and allows them
+to click another card. If they match, the cards stay up and if not they flip
+back over. Users get a point for every pair they flip. The game ends after 1
+minute or all cards have been matched.
 
-### You Do: Milk and eggs (15 min)
+### Option 3: Flash Cards
 
-1. Write pseudocode that gets me (errr...  um...  THAT programmer) to buy milk and eggs.
+The user should start with a shuffled list of pre-existing cards. They can go
+back and forth between cards and 'flip' the flash card to go from back-to-front
+or front-to-back.
 
-## Break (10 min)
+Optionally, users may mark a card 'correct' if they knew the answer on the back
+of the flash card, in which case it's temporarily removed from the deck.
 
-## Exercise: Pseudocode FizzBuzz (30 min)
+### Option 4: War (Card Game)
+
+Users can play the [game of 'war'](https://en.wikipedia.org/wiki/War_(card_game))
+against a computer. The game continues until 1 player runs out of cards.
+
+### Timing & Review
+
+Students should take 15 minutes to pseudo-code the first problem in pairs. After
+time is up, they should 'swap' code with another team and spend 5 minutes
+reviewing each other's code, leaving feedback.
+
+If time permits, switch teams and tackle an option that neither partner has done
+before for another 10 minutes. Repeat the the review process.
+
+
+## Bonus Exercise: Pseudocode FizzBuzz (30 min)
 
 Break into small groups and solve this puzzle:
 
@@ -315,6 +338,23 @@ To start, consider:
 
 - How can you tell if one number is divisible by another? (For example, 8 is divisible by 2, but not by 3.)
 
+## Bonus Exercise: If there are eggs
+
+A programmer is going to the grocery store and his wife tells him, "Buy a gallon of milk, and if there are eggs, buy a dozen."
+
+So the programmer goes, buys everything, and drives back to his house.
+
+Upon arrival, his wife angrily asks him, "Why did you get 13 gallons of milk?"
+
+The programmer says, "There were eggs!"
+
+### We Do: Only milk (10 min)
+
+1. Write the pseudocode that shows why he only bought milk.
+
+### You Do: Milk and eggs (15 min)
+
+1. Write pseudocode that gets me (errr...  um...  THAT programmer) to buy milk and eggs.
 
 ## Conclusion
 
@@ -327,7 +367,7 @@ To start, consider:
 - wikipedia, [pseudocode is](https://en.wikipedia.org/wiki/Pseudocode)
 - [Introduction to Pseudocode](http://www.slideshare.net/DamianGordon1/pseudocode-10373156)
 - [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)
- 
+
 ## Screencasts
 
 - [Matt, WDI-DC-8](https://www.youtube.com/playlist?list=PL-6bwUTtCRVTMUUSjqIYVXYyfZBzs8saD)
@@ -360,6 +400,13 @@ Buy("Milk", GallonsToBuy)
 2. Milk AND Eggs
 
 ```
-Buy upto 1 gallon of Milk
-Buy upto 1 dozen Eggs
+GallonsToBuy is 1
+EggsToBuy is 0
+
+if Store Has "Eggs"
+  Increase eggsToBuy by 12
+end
+
+Purchase <GallonsToBuy> gallons of "Milk"
+Purchase <eggsToBuy> eggs
 ```
