@@ -20,7 +20,7 @@ Let's break that down and translate it.
 Q. What does that mean?
 ---
 
-> A. Pseudocode attempts to be a way to describe a the solution to a problem, that is easier and more concise than code.  It is a stepping stone toward writing the code.  It forces u to think critically about the problem and allows us to attempt multiple solutions.
+> A. Pseudocode attempts to be a way to describe the solution to a problem, that is easier and more concise than code.  It is a stepping stone toward writing the code.  It forces you to think critically about the problem and allows us to attempt multiple solutions.
 
 I've heard Washington, DC described as where Northern hospitality meets Southern efficiency.
 
@@ -29,7 +29,7 @@ Pseudocode lives in that "in between" place too.  It has more logic than English
 
 ### We Do: What does that look like? (15 min)
 
-Pseudocode should describe the entire logic of the algorithm so that programming becomes a task of translating line by line of pseudo code into real code.
+Pseudocode should describe the entire logic of the algorithm so that programming becomes a task of translating line by line of pseudocode into real code.
 
 For each of following, let's discuss why each one could be considered "Good" or "Poor" examples of pseudocode:
 
@@ -129,15 +129,7 @@ Computers are not smart. We need to give them step by step instructions to accou
 Computers can not adapt, but we can.  Your first pass at pseudocode will probably not cover everything.  Once you know more, you may come back to update and refactor your pseudocode.
 
 
-## Exercise: Draw Toast (30 min)
-
-Got a wicked problem? First, tell me how you make toast.
-
-https://github.com/ga-wdi-exercises/draw_toast
-
-## Break (10 min)
-
-## Exercise: Solve the Waiter Problem (10 min)
+## Exercise: Solve the Waiter Problem (5 min)
 
 Using your new found skills, you have 5 minutes to solve this:
 
