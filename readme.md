@@ -236,7 +236,7 @@ If you feel stuck, feel free to use this syntax:
   ```
 
 
-## Exercise: Pseudocode a real-world problem (30 min)
+## Exercise: Pseudocode a real-world problem (20 min)
 
 Break into small groups and pick one of the following programs to pseudocode:
 
@@ -278,7 +278,7 @@ If time permits, switch teams and tackle an option that neither partner has done
 before for another 10 minutes. Repeat the the review process.
 
 
-## Bonus Exercise: Pseudocode FizzBuzz (30 min)
+## Bonus Exercise: Pseudocode FizzBuzz (15 min)
 
 Break into small groups and solve this puzzle:
 
