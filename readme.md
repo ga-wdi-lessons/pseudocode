@@ -39,7 +39,7 @@ For each of following, let's discuss why each one could be considered "Good" or 
 ```
 PROGRAM IsEvenOrOdd:
   var num = number;
-  IF (num / 2 === 0)
+  IF (num % 2 === 0)
     THEN Print "even";
     ELSE Print "odd";
   ENDIF;
@@ -49,7 +49,7 @@ END.
 Q. What do we think?
 ---
 
-> A. This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional.  Would a non-programmer know that `num / 2 === 0` indicates an even number?
+> A. This is not a great example. Here we are using "var" in our pseudocode when it should read plain english! Also, we should not be using the javascript syntax "===" in our conditional.  Would a non-programmer know that `num % 2 === 0` indicates an even number?
 
 ***Example 1.2:***
 ```
