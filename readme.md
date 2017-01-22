@@ -14,7 +14,7 @@ Pseudocode is a way to describe the solution to a problem without writing code i
 
 Pseudocode should describe the entire logic of a problem so that programming becomes a task of translating pseudocode line by line into actual code.
 
-### How to Make a PB&J Sandwich (10 minutes / 0:15)
+## How to Make a PB&J Sandwich (10 minutes / 0:15)
 
 > Source: [Get Creative Today](http://getcreativetoday.com/lessons/pseudo-code-flowcharts/)
 
