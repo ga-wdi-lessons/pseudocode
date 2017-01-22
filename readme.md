@@ -96,7 +96,7 @@ Write code using those concrete steps
 
 This process is iterative.  We keep circling around and repeating the earlier steps, just at a different level.
 
-When we first approach a problem, we see the big picture. "Break it down" gives us big steps. Then we take one of those steps and "Break it down". Now, starting small, we write pseudocode to help illustrate the problem.  
+When we first approach a problem, we see the big picture. "Break it down" first into big steps. Then we take one of those steps and "Break it down" again into smaller steps. We write pseudocode to help illustrate the problem.  
 
 Pseudocoding proves that we have *identified* the problem, understand it *conceptually*, and have *broken it down* into *small steps* that we can follow.
 
