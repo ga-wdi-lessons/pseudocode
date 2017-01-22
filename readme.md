@@ -139,40 +139,18 @@ END.
 </details>
 
 
-## You Do: Pseudocode a Real-World Problem (15 minutes / 0:50)
+## You Do: Pseudocode Concentration (15 minutes / 0:50)
 
-Break into pairs and pick one of the below games to pseudocode.
-
-Take 10 minutes to pseudocode the game with your partner. Each pair should then swap code with another team and spend 5 minutes
-reviewing each other's code, leaving feedback.
-
-### Option 1: A Trivia Game
-
-The game should have a preset list of questions, which are shown one at a time
-to the user. The user submits their answer and goes to the next question. After
-each question they can see whether they were correct or incorrect. They can also
-see their total score.
-
-### Option 2: Concentration
+Take 10 minutes to pseudocode the game Concentration with a partner.
 
 The user should see a grid of cards. Clicking a card reveals it and allows them
 to click another card. If they match, the cards stay up and if not they flip
 back over. Users get a point for every pair they flip. The game ends after 1
 minute or all cards have been matched.
 
-### Option 3: Flash Cards
+Afterwards, we'll spend 5 minutes sharing approaches as a class.
 
-The user should start with a shuffled list of pre-existing cards. They can go
-back and forth between cards and 'flip' the flash card to go from back-to-front
-or front-to-back.
 
-Optionally, users may mark a card 'correct' if they knew the answer on the back
-of the flash card, in which case it's temporarily removed from the deck.
-
-### Option 4: War (Card Game)
-
-Users can play the [game of 'war'](https://en.wikipedia.org/wiki/War_(card_game))
-against a computer. The game continues until 1 player runs out of cards.
 
 ## Conclusion
 
