@@ -22,10 +22,6 @@ We're going to make a PB&J sandwich — for real.
 
 In today's demo, the supporting instructor will act like a computer. You'll be tasked with guiding the instructor through the process of making the sandwich. Keep in mind that your instructions will need to be explicit otherwise things could get messy!
 
-Computers are not smart. We need to give them step by step instructions to account for conditions. They can not adapt to make changes without being explicitly told. Programing is a series of tasks, which can be completed only if a certain number of conditions are met.
-
-Computers can not adapt, but we can.  Your first pass at pseudocode will probably not cover everything.  Once you know more, you may come back to update and refactor your pseudocode.
-
 <details>
 <summary>**Here's one approach to solving our problem**</summary>
 
@@ -62,6 +58,11 @@ END.
 </details>
 
 ## Approaching a Coding Problem (15 minutes / 0:35)
+
+
+Computers are not smart. We need to give them step by step instructions to account for conditions. They can not adapt to make changes without being explicitly told. Programing is a series of tasks, which can be completed only if a certain number of conditions are met.
+
+Computers can not adapt, but we can.  Your first pass at pseudocode will probably not cover everything.  Once you know more, you may come back to update and refactor your pseudocode.
 
 Pseudocode isn't just about writing down the steps that you already know. It's a tool to help you work through the problem. Before we can write pseudocode to solve the problem, we need to know the problem.  
 
